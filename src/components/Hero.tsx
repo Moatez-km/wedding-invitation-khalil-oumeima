@@ -4,7 +4,13 @@ import { FloralDivider } from './Shared';
 
 export function Hero({ lang }: { lang: Lang }) {
   return (
-    <section className="relative min-h-[100svh] flex flex-col items-center justify-center text-center px-6 pt-20">
+    <section className="relative min-h-[100svh] flex flex-col items-center justify-center text-center px-6 pt-20 overflow-hidden">
+      {/* Background Image with Elegant Overlay */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/bg-home.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-cream-900/75 backdrop-blur-[2px]" />
       
       <motion.div
         initial="hidden"
