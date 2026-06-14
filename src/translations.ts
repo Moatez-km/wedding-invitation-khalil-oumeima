@@ -5,7 +5,8 @@ export const t = {
   splashSub: { fr: "Vous êtes invités", en: "You are invited" },
   splashHint: { fr: "Touchez pour ouvrir", en: "Touch to open" },
   heroPre: { fr: "Nous nous marions", en: "We are getting married" },
-  heroDate: { fr: "Dimanche 19 Juillet 2026", en: "Sunday 19 July 2026" },
+  heroDay: { fr: "Dimanche", en: "Sunday" },
+  heroDate: { fr: "19 Juillet 2026", en: "19 July 2026" },
   heroLoc: { fr: "Salle Des Fêtes La Reine · Ain Zaghouen, Tunisie", en: "La Reine Celebration Hall · Ain Zaghouen, Tunisia" },
   countdownTitle: { fr: "Avant le grand jour", en: "Before the big day" },
   countdownUnits: {
