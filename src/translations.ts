@@ -16,7 +16,7 @@ export const t = {
   event1Title: { fr: "La veille · Wteya", en: "The Eve · Wteya" },
   event1Venue: { fr: "Jardin De Mariage", en: "Jardin De Mariage" },
   event1Date: { fr: "Vendredi 17 Juillet", en: "Friday 17 July" },
-  event1Time: { fr: "Dîner à partir de 18h30", en: "Dinner from 6:30 PM" },
+  event1Time: { fr: "À partir de 21h00", en: "From 9:00 PM" },
   event1Loc: { fr: "Jardin De Mariage De Madame Daoud · Boumhal, Tunisie", en: "Madame Daoud Wedding Garden · Boumhal, Tunisia" },
   event2Title: { fr: "La célébration", en: "The Celebration" },
   event2Venue: { fr: "La Reine", en: "La Reine" },
