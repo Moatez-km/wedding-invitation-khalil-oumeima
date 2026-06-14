@@ -18,7 +18,7 @@ export function Closing({ lang }: { lang: Lang }) {
           "{t.closingQuote[lang]}"
         </p>
 
-        <p className="uppercase tracking-[0.3em] text-sm font-semibold text-text-main">
+        <p className="font-script text-5xl sm:text-6xl shimmer-text py-2">
           {t.closingEnd[lang]}
         </p>
         
