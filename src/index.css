@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600&family=Pinyon+Script&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold-300: #e6d5b8;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c5a880;
+  --color-gold-600: #a3845b;
+  --color-cream-900: #faf9f6;
+  --color-cream-800: #f4efeb;
+  --color-cream-700: #e8e1d7;
+  --color-text-main: #4a4a4a;
+  --color-text-muted: #7a7a7a;
+
+  --font-heading: "Cormorant Garamond", ui-serif, Cambria, "Times New Roman", Times, serif;
+  --font-body: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Pinyon Script", cursive;
+}
+
+body {
+  @apply bg-cream-900 text-text-main font-body selection:bg-gold-500/20 selection:text-gold-600;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shimmer-text {
+  background: linear-gradient(135deg, #a3845b 0%, #d4af37 50%, #a3845b 100%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}

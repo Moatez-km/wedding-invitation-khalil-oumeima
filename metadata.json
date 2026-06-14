@@ -1,0 +1,6 @@
+{
+  "name": "Wedding Invitation - Khalil & Oumeima",
+  "description": "Luxurious animated wedding invitation",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
