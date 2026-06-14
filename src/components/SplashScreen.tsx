@@ -5,15 +5,17 @@ import { Lang, t } from '../translations';
 interface SplashScreenProps {
   lang: Lang;
   onOpen: () => void;
+  onPlayAudio: () => void;
 }
 
-export function SplashScreen({ lang, onOpen }: SplashScreenProps) {
+export function SplashScreen({ lang, onOpen, onPlayAudio }: SplashScreenProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isUnmounting, setIsUnmounting] = useState(false);
 
   const handleOpen = () => {
     if (isOpen) return;
     setIsOpen(true);
+    onPlayAudio();
     setTimeout(() => {
       setIsUnmounting(true);
     }, 1800); // Wait for open animation to finish
