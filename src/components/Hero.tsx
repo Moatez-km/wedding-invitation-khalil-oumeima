@@ -7,10 +7,13 @@ export function Hero({ lang }: { lang: Lang }) {
     <section className="relative min-h-[100svh] flex flex-col items-center justify-center text-center px-6 pt-20 overflow-hidden">
       {/* Background Image with Elegant Overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-65"
         style={{ backgroundImage: "url('/bg-home.jpg')" }}
       />
-      <div className="absolute inset-0 bg-cream-900/75 backdrop-blur-[2px]" />
+      <div className="absolute inset-0 bg-cream-900/50 backdrop-blur-[1px]" />
+      
+      {/* Bottom Gradient Fade */}
+      <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-cream-900 to-transparent pointer-events-none" />
       
       <motion.div
         initial="hidden"
